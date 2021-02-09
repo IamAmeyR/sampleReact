@@ -11,8 +11,6 @@ function App() {
       <Switch>
         <Route exact path="/" component={Login} />
         <Route path="/dashboard" component={Dashboard} />
-        {/* when none of the above match, <NoMatch> will be rendered */}
-        {/* <Route component={NoMatch} /> */}
       </Switch>
     </div>
   );
